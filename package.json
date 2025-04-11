@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Pramikaofficial.github.io/News-website-reactjs-bootstrap/"
   "name": "news-mag",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "vite build", 
+    "deploy": "gh-pages -d dist",
   },
   "dependencies": {
     "react": "^19.0.0",
